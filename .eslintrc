@@ -1,0 +1,49 @@
+{
+  "plugins": [
+    "react",
+    "react-native"
+  ],
+  "extends": [
+    "plugin:react/recommended"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "react-native/react-native": true
+  },
+  "rules": {
+    "indent": [
+      "error",
+      2
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-react": "off",
+    "react/display-name": 0,
+    "react-native/sort-styles": [
+      "error",
+      "asc",
+       {
+         "ignoreClassNames": false,
+         "ignoreStyleProperties": false
+       }
+     ]
+  }
+}
